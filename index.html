@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Continental Hotel Reservation Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="form-page">
+  <div id="form-box">
+    <h2 class="form-title">Continental Hotel Reservation Form</h2>
+
+    <form action="#">
+      <table class="form-table">
+        <tr>
+          <th>Name</th>
+          <td><input type="text" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+          <th>eMail</th>
+          <td><input type="email" value="info@continental.pk"></td>
+        </tr>
+        <tr>
+          <th>Mobile No</th>
+          <td><input type="text" placeholder="Enter your cell number"></td>
+        </tr>
+        <tr>
+          <th>Arrival Time</th>
+          <td><input type="text" placeholder="Enter your arrival time"></td>
+        </tr>
+        <tr>
+          <th>Departure</th>
+          <td><input type="text" class="short"> <input type="text" class="short"></td>
+        </tr>
+        <tr>
+          <th>Room Type</th>
+          <td>
+            <input type="radio" name="room" id="single"> <label for="single">Single</label>
+            <input type="radio" name="room" id="double"> <label for="double">Double</label><br>
+            <input type="radio" name="room" id="suite"> <label for="suite">Presidential Suite</label>
+          </td>
+        </tr>
+        <tr>
+          <th>Preferences</th>
+          <td>
+            <input type="checkbox" id="smoke"> <label for="smoke">Non-Smoking</label><br>
+            <input type="checkbox" id="net"> <label for="net">Internet</label><br>
+            <input type="checkbox" id="mattress"> <label for="mattress">Firm Mattress</label>
+          </td>
+        </tr>
+        <tr>
+          <th>Mode of Payment</th>
+          <td>
+            <input type="checkbox" id="cash"> <label for="cash">Cash</label>
+            <input type="checkbox" id="check"> <label for="check">Check</label><br>
+            <input type="checkbox" id="card"> <label for="card">Credit Card</label>
+            <select>
+              <option>Select Card</option>
+              <option>Visa</option>
+              <option>MasterCard</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" class="center"><input type="submit" value="Send Data"></td>
+        </tr>
+      </table>
+    </form>
+
+    
+  </div>
+</body>
+</html>
